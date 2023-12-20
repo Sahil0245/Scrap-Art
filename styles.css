@@ -505,3 +505,85 @@ footer .copyright {
 .our_mission_content {
     margin: 40px;
 }
+
+
+/* cart items */
+
+#page-header-cart {
+    width: 100vw;
+    /* height: 40vh; */
+    text-shadow: 2px 2px 5px #696969;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    padding: 14px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.cart-page {
+    padding: 30px 60px 60px 60px;
+}
+
+.cart-page table {
+    width: 100%;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-info img {
+    width: 100px;
+    height: 100px;
+    /* padding: 10px; */
+}
+
+.cart-page table th {
+    text-align: left;
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    background-color: #E3E6F3;
+}
+
+.cart-page table td {
+    padding: 10px 5px;
+    font-size: 16px;
+}
+
+.cart-page table td p {
+    margin-left: 10px;
+    font-size: 16px;
+    /* padding: ; */
+}
+
+.cart-page table td a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: #E3E6F3;
+    padding: 8px 8px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table {
+    border-top: 3px solid #E3E6F3;
+    width: 100%;
+    margin-right: 157px;
+    max-width: 350px;
+}
+
+.total-price table td:last-child {
+    text-align: right;
+}
