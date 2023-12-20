@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us/Scrap-Art</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- header starts-->
+    <section id="header">
+        <a href="#"><img src="images/logo.png" class="logo" alt="logo"></a>
+        <div>
+            <!-- navbar -->
+            <ul id="navbar" style="margin-bottom: 0px !important">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="scrap.html">Scrapyard</a></li>
+                <li><a href="art.html">Art Zone</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                <li id="lg-bag"><a href="user.html"><i class="fa-solid fa-user"></i></a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="user.html"><i class="fa-solid fa-user"></i></a>
+            <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+    <!-- header ends -->
+
+    <div class="bg-image"></div>
+    <div class="bg-text">
+        <h2>CONTACT US</h2>
+    </div>
+    <!-- contact us form starts -->
+    <div class="wrapper">
+        <section class="form signup">
+            <header class="aboutus_who_are_we">Contact Us</header>
+            <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
+                <div class="error-text"></div>
+                <div class="details">
+                    <div class="field input">
+                        <label>Name</label>
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="field input">
+                        <label>Mobile Number</label>
+                        <input type="text" name="mobilenumber" placeholder="Enter registered mobile number" required maxlength="10" minlength="10">
+                    </div>
+
+                </div>
+                <div class="field input">
+                    <label>Email Address</label>
+                    <input type="text" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="field input">
+                    <label>message</label>
+                    <!-- <input type="text" name="password" placeholder="enter your message here" required> -->
+                    <textarea name="product_description" id="full-featured" class="form-control" name="message" cols="30" rows="12"></textarea>
+                </div>
+                <div class="field image">
+                    <label>Send Image(OPTIONAL)</label>
+                    <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg">
+                </div>
+                <div class="field button">
+                    <input type="submit" name="submit" value="Send Message">
+                </div>
+            </form>
+
+        </section>
+    </div>
+
+
+
+
+
+    <!-- footer starts -->
+    <footer class="section-p1">
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <p><b>Secured Payment Gateways</b></p>
+            <img src="images/pay/pay.png" alt="payment gateway">
+        </div>
+
+        <div class="copyright">
+            <p>©ScrapArt - Mini Project - Ecommerce Website</p>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+</body>
+
+</html>

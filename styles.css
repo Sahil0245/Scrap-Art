@@ -407,9 +407,11 @@ footer .copyright {
         text-align: start;
     }
 }
+
+
 /* Scrap page */
 
-#page-header{
+#page-header {
     background-image: url("images/banner/b1.jpg");
     width: 100vw;
     height: 40vh;
@@ -422,6 +424,166 @@ footer .copyright {
     align-items: center;
 }
 
-#page-header h2, #page-header p {
+#page-header h2,
+#page-header p {
     color: #ffff;
+}
+
+
+/* about us page */
+
+.bg-image {
+    /* The image used */
+    background-image: url("/images/scrap/scrap-metal-garbage-waste-dump-17919220.jpg");
+    /* Add the blur effect */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    /* Full height */
+    height: 250px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.whoarewe {
+    margin: 50px;
+    height: 440px;
+    display: flex;
+    background-color: #696969;
+    box-shadow: 10px 6px 20px 5px rgba(0, 0, 0, 0.2), 10px 10px 30px 10px rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.who_are_we {
+    width: 30%;
+}
+
+.who_are_we_content {
+    width: 70%;
+}
+
+.who_are_we_content p {
+    color: white;
+}
+
+.who_are_we h3 {
+    justify-content: center;
+    display: flex;
+    margin-top: 47%;
+    color: black;
+}
+
+.aboutus_who_are_we {
+    font-family: 'Nunito', sans-serif;
+}
+
+.our_mission {
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+}
+
+.our_mission_content {
+    margin: 40px;
+}
+
+
+/* cart items */
+
+#page-header-cart {
+    width: 100vw;
+    /* height: 40vh; */
+    text-shadow: 2px 2px 5px #696969;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    padding: 14px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.cart-page {
+    padding: 30px 60px 60px 60px;
+}
+
+.cart-page table {
+    width: 100%;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-info img {
+    width: 100px;
+    height: 100px;
+    /* padding: 10px; */
+}
+
+.cart-page table th {
+    text-align: left;
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    background-color: #E3E6F3;
+}
+
+.cart-page table td {
+    padding: 10px 5px;
+    font-size: 16px;
+}
+
+.cart-page table td p {
+    margin-left: 10px;
+    font-size: 16px;
+    /* padding: ; */
+}
+
+.cart-page table td a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: #E3E6F3;
+    padding: 8px 8px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table {
+    border-top: 3px solid #E3E6F3;
+    width: 100%;
+    margin-right: 157px;
+    max-width: 350px;
+}
+
+.total-price table td:last-child {
+    text-align: right;
 }
