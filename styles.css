@@ -407,9 +407,11 @@ footer .copyright {
         text-align: start;
     }
 }
+
+
 /* Scrap page */
 
-#page-header{
+#page-header {
     background-image: url("images/banner/b1.jpg");
     width: 100vw;
     height: 40vh;
@@ -422,6 +424,84 @@ footer .copyright {
     align-items: center;
 }
 
-#page-header h2, #page-header p {
+#page-header h2,
+#page-header p {
     color: #ffff;
+}
+
+
+/* about us page */
+
+.bg-image {
+    /* The image used */
+    background-image: url("/images/scrap/scrap-metal-garbage-waste-dump-17919220.jpg");
+    /* Add the blur effect */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    /* Full height */
+    height: 250px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.whoarewe {
+    margin: 50px;
+    height: 440px;
+    display: flex;
+    background-color: #696969;
+    box-shadow: 10px 6px 20px 5px rgba(0, 0, 0, 0.2), 10px 10px 30px 10px rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.who_are_we {
+    width: 30%;
+}
+
+.who_are_we_content {
+    width: 70%;
+}
+
+.who_are_we_content p {
+    color: white;
+}
+
+.who_are_we h3 {
+    justify-content: center;
+    display: flex;
+    margin-top: 47%;
+    color: black;
+}
+
+.aboutus_who_are_we {
+    font-family: 'Nunito', sans-serif;
+}
+
+.our_mission {
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+}
+
+.our_mission_content {
+    margin: 40px;
 }
